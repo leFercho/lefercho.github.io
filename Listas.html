@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Listas</title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			header,nav,main,footer{
+				width:1200px;
+				margin: auto;
+			}
+			header{
+				height:200px;
+				background-color:#780634
+			}
+			nav{
+				height: 50px;
+				background-color:#A61F21;
+			}
+			main{
+				height: auto;
+				background-color:#A91A6D;
+				padding:30px 0;
+			}
+			footer{
+				height: 100px;
+				background-color:#FD1B7C;
+			}
+			header h1{
+				width:900px; 
+				height:200px;
+				margin:0 auto; 
+				color:cadetblue;
+				text-align: center;
+			}
+			footer h6{
+				width: 800px;
+				height: inherit;
+				margin: 0 auto;
+				text-align: center;
+				color:aliceblue;
+			}
+			h2{color:#55BD49;
+			}
+			p{color:#EBDCDC
+			}
+			section{
+				width:800px;
+				heigth:250px;
+				background-color:#FC005F;
+				margin:30px auto;
+				padding:50px;
+			}
+		</style>
+</head>
+
+<body>
+	<header>
+		<h1>Listas en HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+			<h2>Lista ordenada: Revision de errores cometidos en la redacción</h2>
+			<ol>
+				<li>Organizacion</li>
+				<li>Exactitud de transcripciones</li>
+				<li>Cuestiones gramaticales</li>
+				<li>Formatos</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Lista desordenada:Lista del super</h2>
+			<ul>
+				<li>Pasta dedientes</li>
+				<li>Shampoo</li>
+				<li>Jabon de tocador</li>
+				<li>Sopas</li>
+				<li>Pollo</li>
+				<li>Lata de frutas</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista mixta:Geografica</h2>
+			<ul>
+				<li>Argentina</li>
+				 <ul>
+				   <li>Buenos Aires</li>
+				   <li>Rio de la plata</li>
+				   <li>Belgrano</li>
+				 </ul>
+				<li>Bolivia</li>
+				  <ul>
+				    <li>La Paz</li>
+				    <li>Cochabamba</li>
+				    <li>Trinidad</li>
+				  </ul>
+				<li>Mexico
+				    <ul>
+					  <li>Aguascalientes</li>
+					  <li>Baja California Sur</li>
+					  <li>Colima</li>
+					  <li>Durango</li>
+					  <li>Puebla</li>
+					</ul>
+				</li>
+				<li>España</li>
+				 <ul>
+				   <li>Madrid</li>
+				   <li>Barcelona</li>
+				   <li>Sevilla</li>
+				   <li>Bilbao</li>
+				 </ul>
+				<li>Italia</li>
+				 <ul>
+				  <li>Venecia</li>
+				  <li>Florencia</li>
+				  <li>Roma</li> 
+				 </ul>
+			</ul>
+		</section>
+		<section>
+		 <h2>Lista de descripcion</h2>
+			<dl>
+			 <dt>Usabilidad</dt>
+			 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum voluptates modi rerum, dolore temporibus facilis laboriosam neque ratione aliquam repellendus!</dd>
+			 <dt>Accesibilidad</dt>
+			 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim mollitia provident, delectus corrupti ad hic! Pariatur nihil labore fuga eveniet natus dolore sapiente cum doloribus.</dd>
+			 <dt>Servidor Web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, officia reiciendis adipisci nulla aspernatur! Ut commodi voluptatibus placeat autem error, consequuntur iure quas, neque perspiciatis culpa amet ea eaque deserunt.30</dd>
+			 <dt>Hosting</dt>
+			 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ipsa dolorum hic, voluptates, beatae earum sequi officia molestias necessitatibus sed! Sunt asperiores, similique nostrum aliquam totam minima laudantium minus. Sed temporibus et quod reiciendis amet esse libero, nostrum magnam. Tempore quae reiciendis, nesciunt suscipit ea cumque repudiandae ipsum excepturi quis!</dd>
+			 <dt>Dominio</dt>
+			 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatibus dolor odio illo iste dignissimos.</dd>
+			</dl>
+		</section>
+		<section>
+		 <h2>Uso de atributo <b>type</b> para definir estilo de viñeta de lista en HTML</h2>
+			<h3>Alfabetico:A,a</h3>
+			<ol type="a">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Romanos:I,i</h3>
+			<ol type="I">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Figura:circle, square,disc</h3>
+			<ul type="square">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Uso de propiedades de CSS para Modificacion</h2>
+		 <h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñetas</h3>
+			<ul style="list-style-type:georgian">
+			 <li>Cafe</li>
+			 <li>Leche</li>
+		 	 <li>Pan</li>
+			 <li>Atun</li>
+			 <li>Frijoles</li>
+			</ul>
+			<h3>Uso de la propiedad list-style-image de css para cambiar la viñeta por imagen personalizada</h3>
+			<ul style="list-style-images:url('file:///C|/Users/Fernando/Desktop/DG/7mo Materias/Interfaces}/prueba 2/html/..imagenes/dom')">
+			 <li>Delfin</li>
+			 <li>Morsa</li>
+			 <li>Ballena</li>
+		     </ul>
+			<h3>Eliminar viñetas de la lista </h3>
+			<ul>
+			 <li>Gato</li>
+			 <li>Perro</li>
+			 <li>Tigre</li>
+			</ul>
+		</section>
+	</main>
+	<footer>Elaborado por: Luis Fernando López Pérez</footer>
+</body>
+</html>
